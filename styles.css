@@ -1,0 +1,61 @@
+body {
+	background-color: #1A6785;
+	color: white;
+	padding: 5% 15%;
+}
+
+#backgroundImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+}
+
+#IntroTitle {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	color: #004466;
+}
+
+#IntroParagraph {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	color: lightblue;
+}
+
+button {
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: white;
+	color: #F9C057;
+	font-size: 24px;
+}
+
+button:hover {
+	background-color: #F9C057;
+	color: white;
+}
+
+#ImageTitle {
+	text-align: center;
+}
+
+#img1 {
+  display: none;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#img2 {
+  display: none;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
