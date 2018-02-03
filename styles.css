@@ -11,11 +11,8 @@ body {
 	width: 50%;
 }
 
-#IntroTitle {
+#logo {
 	text-align: center;
-	font-family: 'Lobster', cursive;
-	font-size: 80px;
-	color: #004466;
 }
 
 #IntroParagraph {
