@@ -22,12 +22,12 @@ Myo.on('rest', function() {
 });
 
 var LO = -60;// = -110;
-var HI = 260;// = 110;
+var HI = 60// = 110;
 var FLUX = 1;// = 1;
 
 var armUp = true;
 var prevPitch = 0;// = LO;
-var prevYaw = -160;// = -100;
+var prevYaw = 0;// = -100;
 
 var image1 = document.getElementById("img1");
 var image2 = document.getElementById("img2");
@@ -55,12 +55,12 @@ Myo.on('orientation', function(data) {
 				console.log("correct pitch");
 				image2.style.display = 'none';
 				image1.style.display = 'block';
-			} else if (pitch <= LO) {
+			} /*else if (pitch <= LO) {
 				console.log("correct pitch");
 					image2.style.display = 'none';
 					image1.style.display = 'block';
 
-			} else {
+			} */else {
 				console.log("incorrect pitch");
 				image2.style.display = 'block';
 				image1.style.display = 'none';
@@ -70,11 +70,11 @@ Myo.on('orientation', function(data) {
 				console.log("correct pitch");
 				image2.style.display = 'none';
 				image1.style.display = 'block';
-			} else if (pitch >= HI) {
-				console.log("correct pitch");
+			} /*else if (pitch >= HI) {
+				console.log("incorrect pitch");
 				image2.style.display = 'none';
 				image1.style.display = 'block';
-			} else {
+			} */else {
 				console.log("incorrect pitch");
 				image2.style.display = 'block';
 				image1.style.display = 'none';
